@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 64px;
+  color: #222;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 54px;
+  color: #222;
+}
+
+h3 {
+  font-size: 36px;
+  color: #222;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 18px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: white;
+  background: black;
+  border-radius: 50px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.white {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: black;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 50px;
+  outline: none;
+  transition: 0.2s;
+}
+
+body {
+  width: 100%;
+}
+
+/* Header Start */
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #e3e6f3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none; /* removes bullet points */
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbar li a {
+  text-decoration: none; /* removes underlines from links */
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease; /* makes hover effect smoother */
+}
+
+#navbar li a:hover, /* change colors of navbar links while hovering */
+  #navbar li a.active {
+  padding: 14px 40px;
+  font-size: 18px;
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  padding: 14px 40px;
+  font-size: 18px;
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+}
+
+#header .sign-in:hover button {
+  padding: 14px 40px;
+  font-size: 16px;
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+}
+
+/* Hero */
+
+#hero {
+  height: 90vh;
+  width: 100%;
+  padding: 0 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hero .slider {
+  width: 750px;
+  max-width: 50vw;
+  height: 700px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+#hero .list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  width: max-content;
+  transition: 1s;
+}
+
+#hero .list img {
+  width: 750px;
+  max-width: 50vw;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+#hero .buttons {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#hero .buttons button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff5;
+  color: #fff;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+#hero .dots {
+  position: absolute;
+  bottom: 10px;
+  color: #fff;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#hero .dots li {
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 20px;
+  transition: 1s;
+}
+
+#hero .dots li.active {
+  width: 30px;
+}
+
+#hero .description {
+  width: 50%;
+  padding-left: 50px;
+}
+
+#hero .description p {
+  word-break: break-all;
+  hyphens: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .slider {
+    height: 400px;
+  }
+}
