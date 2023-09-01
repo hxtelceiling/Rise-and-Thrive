@@ -184,7 +184,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: left;
+  text-align: justify;
   margin: 0 10rem;
 }
 
@@ -272,6 +272,27 @@ a:hover {
 
 /* Responsive Design */
 
+@media (max-width: 1366px) {
+  /* Hero - Responsive */
+  #hero {
+    margin: 0 5rem;
+  }
+  #hero .slider {
+    width: 600px;
+    max-width: 100vw;
+    height: 40vw;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  #hero .list img {
+    width: 600px;
+    max-width: 100vw;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 992px) {
   .navbar .links,
   .navbar .action_btn {
@@ -291,18 +312,13 @@ a:hover {
   #hero {
     flex-direction: column;
     margin: 0 2rem;
-    text-align: justify;
   }
   #hero .slider {
     width: 700px;
-    max-width: 100vw;
     height: 70vw;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
   }
   #hero .list img {
     width: 700px;
-    max-width: 100vw;
   }
   #hero .description {
     width: 700px;
