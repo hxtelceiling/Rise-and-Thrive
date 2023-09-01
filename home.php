@@ -6,24 +6,39 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>R&T 2.0</title>
         <link rel="icon" href="img/R&T.png" type="image/icon type">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+        />
         <link rel="stylesheet" href="style.css">
     </head>
 
 <body>
 
     <section id="header" class="section-p1">
-        <a href="#"><img src="img/R&T.png" class="logo" alt=""></a>
-
-        <div>
-            <ul id="navbar">
-                <li><a class="active" href="home.php">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="courses.html">Courses</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
+        <div class="navbar">
+            <a class ="logo" href="#"><img src="img/R&T.png" class="logo" alt="" /></a>
+            <ul class="links">
+            <li><a href="hero">Home</a></li>
+            <li><a href="products">Products</a></li>
+            <li><a href="courses">Courses</a></li>
+            <li><a href="contacts">Contacts</a></li>
             </ul>
+            <a href="#" class="action_btn">Sign-in</a>
+            <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
-        <div class="sign-in">
-        <a href="login.php"><button class="white">Sign in</button></a>
+
+        <div class="dropdown_menu">
+            <li><a href="hero">Home</a></li>
+            <li><a href="products">Products</a></li>
+            <li><a href="courses">Courses</a></li>
+            <li><a href="contacts">Contacts</a></li>
+            <li><a href="#" class="action_btn">Sign-in</a></li>
         </div>
     </section>
         
@@ -67,6 +82,20 @@
         </article>
 
     </section>
+    <script>
+      const toggleBtn = document.querySelector(".toggle_btn");
+      const toggleBtnIcon = document.querySelector(".toggle_btn i");
+      const dropDownMenu = document.querySelector(".dropdown_menu");
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle("open");
+        const isOpen = dropDownMenu.classList.contains("open");
+
+        toggleBtnIcon.classList = isOpen
+          ? "fa-solid fa-xmark"
+          : "fa-solid fa-bars";
+      };
+    </script>
     <script src="slider.js"></script>
 </body>
 
