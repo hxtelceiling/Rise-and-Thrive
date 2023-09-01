@@ -22,7 +22,7 @@
         <div class="navbar">
             <a class ="logo" href="#"><img src="img/R&T.png" class="logo" alt="" /></a>
             <ul class="links">
-            <li><a href="hero">Home</a></li>
+            <li><a class="active" href="hero">Home</a></li>
             <li><a href="products">Products</a></li>
             <li><a href="courses">Courses</a></li>
             <li><a href="contacts">Contacts</a></li>

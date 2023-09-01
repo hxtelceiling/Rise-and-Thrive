@@ -81,7 +81,7 @@ a {
   /* ito yung sa navbar links Home About chuchu*/
   text-decoration: none;
   color: black;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 a:hover {
@@ -116,6 +116,19 @@ a:hover {
   gap: 2rem;
 }
 
+.navbar li a {
+  transition: 0.2s ease; /* makes hover effect smoother */
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+}
+
 .navbar .toggle_btn {
   color: black;
   font-size: 1.5rem;
@@ -126,11 +139,11 @@ a:hover {
 .action_btn {
   background-color: orange;
   color: #fff;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 1rem;
   border: none;
   outline: none;
   border-radius: 20px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
   transition: scale 0.2 ease;
