@@ -60,7 +60,7 @@
             </div>
 
             <!-- button prev and next -->
-            <div class="buttons">
+            <div class="slider-nav">
                 <button id="prev"><</button>
                 <button id="next">></button>
             </div>
