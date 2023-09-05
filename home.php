@@ -79,7 +79,13 @@
             <h3>Get to know our...</h3>
             <h2>Katutubo</h2>
             <p>Lorem ipsum dolor sit amet consectetur. Interdum sed quam turpis integer dictum fermentum tristique ultrices amet. Ut tortor risus proin ut nulla feugiat risus a. Et fermentum odio donec.</p>
+
+            <div class="buttons">
+            <button id="b1" class="normal">Button 1</button>
+            <button id="b2" class="normal">Button 2</button>
+        </div>
         </article>
+
 
     </section>
     <script>

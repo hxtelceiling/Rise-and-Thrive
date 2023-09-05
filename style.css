@@ -44,14 +44,14 @@ p {
 }
 
 button.normal {
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 600;
-  padding: 15px 30px;
+  padding: 1rem 2rem;
   color: white;
-  background: black;
+  background-color: black;
   border-radius: 50px;
   cursor: pointer;
-  border: none;
+  border: 1px solid transparent;
   outline: none;
   transition: 0.2s;
 }
@@ -283,6 +283,17 @@ a {
   word-wrap: break-all;
 }
 
+#hero .description .buttons{
+  display: flex;
+  gap: 1rem;
+}
+
+#hero .description .buttons button:hover{
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
 /* Responsive Design */
 
 @media (max-width: 1200px) {
@@ -307,6 +318,7 @@ a {
 }
 
 @media (max-width: 992px) {
+  /* sidebar will appear */
   .navbar .links,
   .navbar .action_btn {
     display: none;
