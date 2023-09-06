@@ -86,8 +86,43 @@
         </div>
         </article>
 
-
     </section>
+
+    <section id="main-content">
+        <article class="main-description">
+            <h2>What does Rise & Thrive do?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur. Interdum sed quam turpis integer dictum fermentum tristique ultrices amet. Ut tortor risus proin ut nulla feugiat risus a. Et fermentum odio donec.</p>
+        </article>
+
+        <div class="slider-main">
+            <div class="list-main">
+                <div class="item-main">
+                    <img src="img/1.jpg" alt="" />
+                </div>
+                <div class="item-main">
+                    <img src="img/2.jpg" alt="" />
+                </div>
+                <div class="item-main">
+                    <img src="img/3.jpg" alt="" />
+                </div>
+            </div>
+
+            <!-- button prev and next -->
+            <div class="slider-nav-main">
+                <button id="prev-main"><</button>
+                <button id="next-main">></button>
+            </div>
+
+            <!-- dots (if 3 items => 3 dots )-->
+
+            <ul class="dots-main">
+                <li class="active-main"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+
     <script>
       const toggleBtn = document.querySelector(".toggle_btn");
       const toggleBtnIcon = document.querySelector(".toggle_btn i");
