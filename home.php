@@ -91,7 +91,7 @@
     <section id="main-content">
         <article class="main-description">
             <h2>What does Rise & Thrive do?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur. Interdum sed quam turpis integer dictum fermentum tristique ultrices amet. Ut tortor risus proin ut nulla feugiat risus a. Et fermentum odio donec.</p>
+            <p>R&T is a website that aims to lend a hand to marginalized groups in the Philippines; namely the indigenous people or ‘katutubo,’ inmates, and women. Lorem ipsum dolor sit amet consectetur. Interdum sed quam turpis integer dictum fermentum tristique ultrices amet. Ut tortor risus proin ut nulla feugiat risus a. Et fermentum odio donec.</p>
         </article>
 
         <div class="slider-main">
