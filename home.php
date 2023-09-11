@@ -170,10 +170,8 @@
                     <a class ="logo" href="#"><img src="img/R&T.png" class="logo" alt="" /></a>
 			    </div>
   	        </div>
-  </footer>
- 
+    </footer>
 			
-		
     <script>
       const toggleBtn = document.querySelector(".toggle_btn");
       const toggleBtnIcon = document.querySelector(".toggle_btn i");

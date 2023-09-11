@@ -635,5 +635,10 @@ ul{
   }
   .footer-col{
     width: 100%;
-}
+  }
+  .footer-bottom {
+    margin-left: 1rem;
+    align-items: flex-start; /* Align to the left */
+    text-align: left; /* Align text to the left */
+  }
 }
