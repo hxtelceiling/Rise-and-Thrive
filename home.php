@@ -56,9 +56,8 @@
 
             <!-- button prev and next -->
             <div class="slider-nav">
-                <button id="prev">
-                    << /button>
-                        <button id="next">></button>
+                <button id="prev">&lt;</button>
+                <button id="next">&gt;</button>
             </div>
 
             <!-- dots (if 4 items => 4 dots )-->
@@ -105,9 +104,8 @@
 
             <!-- button prev and next -->
             <div class="slider-nav-main">
-                <button id="prev-main">
-                    << /button>
-                        <button id="next-main">></button>
+                <button id="prev-main">&lt;</button>
+                <button id="next-main">&gt;</button>
             </div>
 
             <!-- dots (if 3 items => 3 dots )-->
